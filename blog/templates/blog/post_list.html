@@ -14,6 +14,13 @@
     </header>
     <section>
         <div>
+            {% for post in posts %}
+            <h1><a href="" alt="Mi primer post">{{post.title}}</a></h1>
+            <p>{{post.text|linebreaksbr}} </p>
+            <p>Published: {{post.published_date}}</p>
+            {% endfor %}
+        </div>
+        <!-- <div>
             <h1><a href="" alt="Mi primer post">Primer Post</a></h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, doloribus. Maiores soluta voluptatibus similique pariatur cumque dolor error iusto earum adipisci temporibus nostrum a suscipit architecto iure omnis ipsa quam porro esse impedit velit, blanditiis qui, facilis quasi. Vel voluptatum inventore atque ipsum? Nostrum accusantium dignissimos facilis, mollitia a unde animi, perspiciatis exercitationem quo ducimus vero ratione tenetur voluptas aliquam, provident omnis. Sed consectetur magni ipsa et sunt at eligendi eveniet.</p>
             <p>Published: 14.06.2014</p>
@@ -22,12 +29,7 @@
             <h1><a href="" alt="Mi primer post">Primer Post</a></h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, doloribus. Maiores soluta voluptatibus similique pariatur cumque dolor error iusto earum adipisci temporibus nostrum a suscipit architecto iure omnis ipsa quam porro esse impedit velit, blanditiis qui, facilis quasi. Vel voluptatum inventore atque ipsum? Nostrum accusantium dignissimos facilis, mollitia a unde animi, perspiciatis exercitationem quo ducimus vero ratione tenetur voluptas aliquam, provident omnis. Sed consectetur magni ipsa et sunt at eligendi eveniet.</p>
             <p>Published: 14.06.2014</p>
-        </div>
-        <div>
-            <h1><a href="" alt="Mi primer post">Primer Post</a></h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, doloribus. Maiores soluta voluptatibus similique pariatur cumque dolor error iusto earum adipisci temporibus nostrum a suscipit architecto iure omnis ipsa quam porro esse impedit velit, blanditiis qui, facilis quasi. Vel voluptatum inventore atque ipsum? Nostrum accusantium dignissimos facilis, mollitia a unde animi, perspiciatis exercitationem quo ducimus vero ratione tenetur voluptas aliquam, provident omnis. Sed consectetur magni ipsa et sunt at eligendi eveniet.</p>
-            <p>Published: 14.06.2014</p>
-        </div>
+        </div> -->
     </section>
     <footer>&copy;Todos los derechos reservados - Coronam</footer>
 </body>
