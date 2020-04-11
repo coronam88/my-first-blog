@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Coronam">
+    <meta name="description" content="asdasda">
+    <meta name="keywords" content="asda,asdasd,asda">
+    <link rel="stylesheet" href="{% static '/css/style.css' %}">
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap" rel="stylesheet">
+    <title>Base</title>
+</head>
+<body>
+    <header>
+        <h1>Mi blog</h1>
+    </header>
+    <section>
+            {% block content %}
+            {% endblock %}
+    </section>
+    <footer>&copy;Todos los derechos reservados - Coronam</footer>
+</body>
+</html>
