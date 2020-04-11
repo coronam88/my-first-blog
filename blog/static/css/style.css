@@ -83,7 +83,7 @@ footer{
     }
 }
 
-@media all and (min-width:600px;) and (max-width:767px){
+@media all and (min-width:600px) and (max-width:767px){
     .post{
         margin-bottom: 15px;
         width:45%;
