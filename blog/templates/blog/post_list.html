@@ -6,7 +6,7 @@
     <div class="post">    
         <h1><a href="" alt="Mi primer post">{{post.title}}</a></h1>
         <p>{{post.text|linebreaksbr}} </p>
-        <p>Published: {{post.published_date}}</p>
+        <p class="fecha-publicacion">Published: {{post.published_date}}</p>
     </div>
     {% endfor %}
 {% endblock %}
