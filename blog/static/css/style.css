@@ -11,21 +11,27 @@ body{
 }
 
 header{
-    background-color: #202040c4;
+    position:fixed;
+    top:0px;
+    border-color: wheat;
+    width: 100%;
+    background-color: #b2b2bdc4;
 }
 
 
 .logo-blog{
+    margin-top:60px;
     padding:5px;
     color:snow;
     font-size: 15pt;
     text-align: center;
     background-color: #202040;
     height: 120px;
-    display: flex ;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
+
 
 .menu-blog, .menu-blog a, .menu-blog a:visited, .menu-blog a:active{
     text-decoration: none;
@@ -115,6 +121,7 @@ footer{
         margin-bottom: 15px;
         width:45%;
     }
+
 }
 
 /* Dispositivos Moviles muy Chicos */
@@ -123,4 +130,5 @@ footer{
         margin-bottom: 15px;
         width:100%;
     }
+
 }
