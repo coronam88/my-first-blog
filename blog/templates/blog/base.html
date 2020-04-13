@@ -13,8 +13,9 @@
 </head>
 <body>
     <header>
-        <h1>Mi blog</h1>
+        <div class="menu-blog"><a href="{% url 'post_list' %}" alt="Principal">Principal</a></div>
     </header>
+    <div class="logo-blog"><h1>Mi blog</h1></div>
     <section>
             {% block content %}
             {% endblock %}
