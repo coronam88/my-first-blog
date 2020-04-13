@@ -13,9 +13,10 @@ body{
 header{
     position:fixed;
     top:0px;
+    display:flex;
     border-color: wheat;
     width: 100%;
-    background-color: #b2b2bdc4;
+    background-color: #b2b2bdef;
 }
 
 
